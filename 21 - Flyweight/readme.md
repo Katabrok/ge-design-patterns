@@ -1,0 +1,1 @@
+The Flyweight pattern is one of the more complex patterns. An examples use of this pattern is described in the next pattern, Interpreter.

@@ -1,0 +1,1 @@
+The reader now may compare another creational pattern, the Builder, with the Abstract Factory. 

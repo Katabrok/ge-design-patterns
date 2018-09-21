@@ -1,0 +1,1 @@
+Reenforce the reader's understanding of Composite by studying Iterator.

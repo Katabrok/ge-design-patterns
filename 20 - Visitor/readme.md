@@ -1,0 +1,1 @@
+Visitor is often combined with the Composite and/or Iterator patterns. 

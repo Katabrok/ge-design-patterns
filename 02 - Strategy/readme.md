@@ -1,0 +1,1 @@
+Strategy is used frequently throughout the book, and an early knowledge of it helps in understanding other patterns. 

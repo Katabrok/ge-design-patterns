@@ -1,0 +1,1 @@
+The reader now returns to the second-easiest creational pattern, the Abstract Factory. This pattern also helps reenforce Factory Method. 

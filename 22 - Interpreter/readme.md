@@ -1,0 +1,1 @@
+The Interpreter pattern is complex. It makes reference to and helps reenforce one's understanding of Flyweight and Visitor. 

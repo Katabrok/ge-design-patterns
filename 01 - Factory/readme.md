@@ -1,0 +1,1 @@
+Begin with Factory Method. This pattern is used by a number of patterns in the book and throughout the patterns literature. 
