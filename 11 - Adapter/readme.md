@@ -1,0 +1,1 @@
+The Adapter pattern may be compared with what the reader understands about Decorator, Proxy, and later, Bridge. 

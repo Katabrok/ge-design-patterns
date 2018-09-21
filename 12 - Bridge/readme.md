@@ -1,0 +1,1 @@
+Finally, the reader learns how the Bridge pattern differs from both the Adapter and Proxy patterns. 

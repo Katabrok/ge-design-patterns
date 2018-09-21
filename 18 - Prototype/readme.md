@@ -1,0 +1,1 @@
+Perhaps the most complex creational pattern, Prototype is often used with the Command pattern. 

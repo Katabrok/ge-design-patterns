@@ -1,0 +1,1 @@
+The Composite pattern appears everywhere and is often used with Iterator, Chain of Responsibility, Interpreter, and Visitor patterns. 

@@ -1,0 +1,1 @@
+After exploring how messages are passed using the Observer and Mediator patterns, the reader now may contrast how messages are handled by the Chain of Responsibility pattern. 

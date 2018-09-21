@@ -1,0 +1,1 @@
+The Command pattern is used in a number of ways, one of which relates to the previous pattern, Mediator. 

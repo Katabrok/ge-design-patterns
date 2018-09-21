@@ -1,0 +1,1 @@
+Singleton is often used to model Abstract Factories, as the "Related Patterns" section of Singleton describes. 

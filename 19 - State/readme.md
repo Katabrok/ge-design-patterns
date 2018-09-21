@@ -1,0 +1,1 @@
+The reader may now study State to understand another way an object's behavior changes.

@@ -1,0 +1,1 @@
+The reader now moves on to Memento. This pattern leads directly into a discussion of undo and redo, which is related to the next pattern, Command. 

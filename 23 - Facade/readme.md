@@ -1,0 +1,1 @@
+The final pattern to read is Facade. Facade is relatively straightforward and follows nicely after Interpreter since the example code is similar in theme to example code in the Interpreter. 

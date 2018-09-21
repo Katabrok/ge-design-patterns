@@ -1,0 +1,1 @@
+The reader now has a chance to learn how Proxy is used to control access to an object. This pattern leads directly into the next pattern, Adapter. 

@@ -1,0 +1,1 @@
+Now the reader learns the Mediator pattern, in preparation for understanding Observer and the Model-View-Controller design. 
