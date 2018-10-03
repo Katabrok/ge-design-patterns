@@ -10,20 +10,36 @@ namespace ge_designer_patterns_decorator
 
             var fiesta = new Fiesta();
 
-            Console.WriteLine(string.Format("I'm a {0} car made by {2} and {1}", fiesta.GetType().ToString(), fiesta.Speed(), fiesta.Brand()));
-            Console.WriteLine("My decorator behavior is a boost value: " + fiesta.Boost().ToString());
+            Console.WriteLine(string.Format("I'm a {0} car made by {2} and {1}", fiesta.GetType().ToString(), fiesta.Speed, fiesta.Brand));
+            //Console.WriteLine("My decorator behavior is a boost value: " + fiesta.Boost().ToString());
 
             var ferrari = new Ferrari458();
 
             Console.WriteLine();
-            Console.WriteLine(string.Format("I'm a {0} car made by {2} and {1}", ferrari.GetType().ToString(), ferrari.Speed(), ferrari.Brand()));
-            Console.WriteLine("My decorator behavior is a Fuel consumption value: " + ferrari.ConsumePerLitre(true).ToString());
+            Console.WriteLine(string.Format("I'm a {0} car made by {2} and {1}", ferrari.GetType().ToString(), ferrari.Speed, ferrari.Brand));
+            ferrari.Boost();
+            Console.WriteLine(string.Format("I'm a {0} car made by {2} and {1}", ferrari.GetType().ToString(), ferrari.Speed, ferrari.Brand));
+            //Console.WriteLine("My decorator behavior is a Fuel consumption value: " + ferrari.ConsumePerLitre(true).ToString());
 
-            var car = new Carro();
+
+
+            var car = Carro.getCarro();
 
             Console.WriteLine();
-            Console.WriteLine(string.Format("I'm a {0} car made by {2} and {1}", car.GetType().ToString(), car.Speed(), car.Brand()));
-            Console.WriteLine("My decorator behavior is none");
+            Console.WriteLine(string.Format("I'm a {0} car made by {2} and {1}", car.GetType().ToString(), car.Speed, car.Brand));
+            
+
+
+            Console.WriteLine();
+
+            ferrari = new Ferrari458(car);
+
+            Console.WriteLine();
+            Console.WriteLine(string.Format("I'm a {0} car made by {2} and {1}", ferrari.GetType().ToString(), ferrari.Speed, ferrari.Brand));
+            ferrari.Boost();
+            Console.WriteLine(string.Format("I'm a {0} car made by {2} and {1}", ferrari.GetType().ToString(), ferrari.Speed, ferrari.Brand));
+
+
 
             Console.ReadLine();
         }

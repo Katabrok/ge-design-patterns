@@ -1,27 +1,26 @@
 ﻿namespace ge_designer_patterns_decorator
 {
-    internal class Ferrari458 : ICarro
+    internal class Ferrari458 : ICarroExterno
     {
+        private Carro _myCar;
+
         public Ferrari458()
         {
+            _myCar = new Carro();
+            _myCar.Brand = "Ferrari";
         }
 
-        public string Speed()
+        public Ferrari458(Carro car)
         {
-            return "My fasted speed can be 325 km/h";
+            _myCar = car;
         }
 
-        public string Brand()
-        {
-            return "Ferrari";
-        }
+        public string Brand { get => _myCar.Brand; set => _myCar.Brand = value; }
+        public double Speed { get => _myCar.Speed; set => _myCar.Speed = value; }
 
-        public double ConsumePerLitre(bool city)
+        public void Boost()
         {
-            if (city)
-                return 5.5;
-
-            return 7.5;
+            _myCar.Speed = _myCar.Speed * 1.5;
         }
     }
 }
