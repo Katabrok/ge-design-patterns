@@ -1,0 +1,11 @@
+C:\repositorio\Meu-github\Pattern\ge-design-patterns\05 - Iterator\BrunoMelo\bin\Debug\netcoreapp2.1\Iterator.deps.json
+C:\repositorio\Meu-github\Pattern\ge-design-patterns\05 - Iterator\BrunoMelo\bin\Debug\netcoreapp2.1\Iterator.runtimeconfig.json
+C:\repositorio\Meu-github\Pattern\ge-design-patterns\05 - Iterator\BrunoMelo\bin\Debug\netcoreapp2.1\Iterator.runtimeconfig.dev.json
+C:\repositorio\Meu-github\Pattern\ge-design-patterns\05 - Iterator\BrunoMelo\bin\Debug\netcoreapp2.1\Iterator.dll
+C:\repositorio\Meu-github\Pattern\ge-design-patterns\05 - Iterator\BrunoMelo\bin\Debug\netcoreapp2.1\Iterator.pdb
+C:\repositorio\Meu-github\Pattern\ge-design-patterns\05 - Iterator\BrunoMelo\obj\Debug\netcoreapp2.1\Iterator.csprojAssemblyReference.cache
+C:\repositorio\Meu-github\Pattern\ge-design-patterns\05 - Iterator\BrunoMelo\obj\Debug\netcoreapp2.1\Iterator.csproj.CoreCompileInputs.cache
+C:\repositorio\Meu-github\Pattern\ge-design-patterns\05 - Iterator\BrunoMelo\obj\Debug\netcoreapp2.1\Iterator.AssemblyInfoInputs.cache
+C:\repositorio\Meu-github\Pattern\ge-design-patterns\05 - Iterator\BrunoMelo\obj\Debug\netcoreapp2.1\Iterator.AssemblyInfo.cs
+C:\repositorio\Meu-github\Pattern\ge-design-patterns\05 - Iterator\BrunoMelo\obj\Debug\netcoreapp2.1\Iterator.dll
+C:\repositorio\Meu-github\Pattern\ge-design-patterns\05 - Iterator\BrunoMelo\obj\Debug\netcoreapp2.1\Iterator.pdb
