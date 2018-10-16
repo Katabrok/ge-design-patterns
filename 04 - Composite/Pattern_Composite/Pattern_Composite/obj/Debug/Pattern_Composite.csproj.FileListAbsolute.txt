@@ -1,0 +1,7 @@
+C:\Users\Codebreak\Desktop\Pattern_Composite\Pattern_Composite\obj\Debug\Pattern_Composite.csprojAssemblyReference.cache
+C:\Users\Codebreak\Desktop\Pattern_Composite\Pattern_Composite\obj\Debug\Pattern_Composite.csproj.CoreCompileInputs.cache
+C:\Users\Codebreak\Desktop\Pattern_Composite\Pattern_Composite\bin\Debug\Pattern_Composite.exe.config
+C:\Users\Codebreak\Desktop\Pattern_Composite\Pattern_Composite\bin\Debug\Pattern_Composite.exe
+C:\Users\Codebreak\Desktop\Pattern_Composite\Pattern_Composite\bin\Debug\Pattern_Composite.pdb
+C:\Users\Codebreak\Desktop\Pattern_Composite\Pattern_Composite\obj\Debug\Pattern_Composite.exe
+C:\Users\Codebreak\Desktop\Pattern_Composite\Pattern_Composite\obj\Debug\Pattern_Composite.pdb
