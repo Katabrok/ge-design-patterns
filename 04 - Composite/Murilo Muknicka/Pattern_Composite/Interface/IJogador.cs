@@ -14,4 +14,9 @@ namespace Pattern_Composite.Interface
         void TotalGold();
         void TotalExp();
     }
+
+    public interface IGrupo: IJogador
+    {
+        List<IJogador> Jogadores { get; set; }
+    }
 }

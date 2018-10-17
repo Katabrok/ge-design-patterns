@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pattern_Composite.Class
 {
-    public class Grupo : IJogador
+    public class Grupo : IGrupo
     {
         public string Name { get; set; }
         public List<IJogador> Jogadores { get; set; }
