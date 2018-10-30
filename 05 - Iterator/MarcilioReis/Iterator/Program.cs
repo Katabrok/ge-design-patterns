@@ -8,15 +8,15 @@ namespace Iterator
         {
             AgregadorConcreto collection = new AgregadorConcreto();
 
-            collection[0] = new Canal("Item 0");
-            collection[1] = new Canal("Item 1");
-            collection[2] = new Canal("Item 2");
-            collection[3] = new Canal("Item 3");
-            collection[4] = new Canal("Item 4");
-            collection[5] = new Canal("Item 5");
-            collection[6] = new Canal("Item 6");
-            collection[7] = new Canal("Item 7");
-            collection[8] = new Canal("Item 8");
+            collection[0] = new Canal("BBC");
+            collection[1] = new Canal("Deutsche Welle");
+            collection[2] = new Canal("Al Jazeera");
+            collection[3] = new Canal("CNN");
+            collection[4] = new Canal("Globonews");
+            collection[5] = new Canal("NHK");
+            collection[6] = new Canal("Bloomberg");
+            collection[7] = new Canal("TVE");
+            collection[8] = new Canal("Rai");
 
             // Cria o iterador
             IteradorConcreto iterator = collection.CriarIterator();
