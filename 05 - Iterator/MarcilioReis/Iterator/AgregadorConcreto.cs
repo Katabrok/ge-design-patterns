@@ -2,6 +2,9 @@
 
 namespace Iterator
 {
+    /// <summary>
+    /// Implementa a interface de criação do agregador - Retorna uma instancia adequada do Iterador Concreto
+    /// </summary>
     class AgregadorConcreto : IAgregador
     {
         private ArrayList _items = new ArrayList();
@@ -11,7 +14,7 @@ namespace Iterator
             return new IteradorConcreto(this);
         }
 
-        // Recupera contagem de itens
+        // Obtém contagem de itens
         public int Count
         {
             get { return _items.Count; }

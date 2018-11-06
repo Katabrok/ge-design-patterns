@@ -1,5 +1,8 @@
 ﻿namespace Iterator
 {
+    /// <summary>
+    /// Implementa a interface do iterador - Mantém o controle da posição atual na travessia do agregador.
+    /// </summary>
     class IteradorConcreto : IteradorInterface
     {
         private AgregadorConcreto _collection;

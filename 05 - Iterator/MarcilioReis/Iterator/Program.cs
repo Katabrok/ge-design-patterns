@@ -21,8 +21,8 @@ namespace Iterator
             // Cria o iterador
             IteradorConcreto iterator = collection.CriarIterator();
 
-            // Pula sempre um item
-            iterator.Step = 2;
+            // Pula sempre dois itens
+            iterator.Step = 3;
 
             Console.WriteLine("Iterando pela coleção");
 
@@ -33,7 +33,7 @@ namespace Iterator
             }
 
             // Aguarda
-            Console.ReadKey();
+            Console.Read();
         }
     }
 }
