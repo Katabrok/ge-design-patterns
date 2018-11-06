@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace Iterator
 {
@@ -21,8 +22,10 @@ namespace Iterator
             // Cria o iterador
             IteradorConcreto iterator = collection.CriarIterator();
 
+            Canais canais = new Canais(collection);
+
             // Pula sempre um item
-            iterator.Step = 2;
+            iterator.Step = 1;
 
             Console.WriteLine("Iterando pela coleção");
 
@@ -30,6 +33,24 @@ namespace Iterator
                 !iterator.Completo; item = iterator.Proximo())
             {
                 Console.WriteLine(item.Nome);
+            }
+
+            Console.WriteLine();
+
+            foreach (var item in canais)
+            {
+                var canal = item as Canal;
+                Console.WriteLine(canal.Nome);
+            }
+
+            Console.WriteLine();
+
+            var enumerator = ((IEnumerable)canais).GetEnumerator();
+
+            while (enumerator.MoveNext())
+            {
+                Canal canal = enumerator.Current as Canal;
+                Console.WriteLine(canal.Nome);
             }
 
             // Aguarda
