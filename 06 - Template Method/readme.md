@@ -3,10 +3,10 @@
 O objetivo deste padrão é definir o esqueleto de um algoritmo dentro de um método,
 tranferindo alguns de seus passos para as subclasses, permitindo assim que subclasses redefinam certos passos de um algoritmo sem alterar a estrutura do mesmo.
 
-#### Diagrama de classe UML :
+### Diagrama de classe UML :
 ![alt text](https://www.thiengo.com.br/img/post/normal/2mukgjhalorsrofoqh4tsmkoo7d6109366674f9e6415c8aac1e22b99ea.jpg)
 
-#### Os participantes :
+### Os participantes :
 - A ClasseTemplateAbstract define um conjunto de operações abstratas que podem (opcionalmente) ser implementadas pelos objetos da ClasseConcreta. Também implementa um método de modelo que controla a ordem em que essas operações abstratas ocorrem.
 - Os objetos ClasseConcreta implementam as operações definidas pela ClasseTempateAbstract.
 
